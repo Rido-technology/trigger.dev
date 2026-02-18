@@ -68,3 +68,5 @@ apps/**/public/build
 .mcp.log
 .mcp.json
 .cursor/debug.log
+temp_auto_push.bat
+temp_interactive_push.bat
