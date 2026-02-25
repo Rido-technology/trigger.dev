@@ -77,7 +77,7 @@ s3:
     secretAccessKey: "trigger-s3-secret-key-fort"
   persistence:
     enabled: true
-    size: 500Gi
+    size: 50Gi
     storageClass: "managed-csi"
 
 registry:
