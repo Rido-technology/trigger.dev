@@ -72,9 +72,9 @@ clickhouse:
 s3:
   auth:
     rootUser: "admin"
-    rootPassword: "WcW£f#1G5R#.2~7-n"
+    rootPassword: 'WcW£f#1G5R#.2~7-n'
     accessKeyId: "trigger-s3-access"
-    secretAccessKey: 'WcW£f#1G5R#.2~7-n'
+    secretAccessKey: "trigger-s3-secret-key-fort"
   persistence:
     enabled: true
     size: 500Gi
