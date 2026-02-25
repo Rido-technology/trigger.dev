@@ -29,7 +29,7 @@ postgres:
   primary:
     persistence:
       enabled: true
-      size: 100Gi
+      size: 10Gi
       storageClass: "managed-csi-premium"
     resources:
       limits:
@@ -58,7 +58,7 @@ clickhouse:
   protocol: http
   persistence:
     enabled: true
-    size: 100Gi
+    size: 20Gi
     storageClass: "managed-csi-premium"
 
   resources:
