@@ -76,7 +76,8 @@ registry:
   external:
     host: "wasalacr.azurecr.io"
     auth:
-      enabled: false
+      enabled: true
+      secretName: "acr-secret"
   repositoryNamespace: "trigger-tasks"
 
 

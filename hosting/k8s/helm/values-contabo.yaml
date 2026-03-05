@@ -30,7 +30,7 @@ postgres:
     persistence:
       enabled: true
       size: 10Gi
-      storageClass: "managed-csi-premium"
+      storageClass: "local-path"
     resources:
       limits:
         cpu: 1000m
@@ -76,7 +76,8 @@ registry:
   external:
     host: "wasalacr.azurecr.io"
     auth:
-      enabled: false
+      enabled: true
+      secretName: "acr-secret"
   repositoryNamespace: "trigger-tasks"
 
 
